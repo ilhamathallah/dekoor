@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dekoor Furniture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img class="img-logo" src="image/Logo vector.svg" alt="Dekoor logo">
+            <div class="text-logo">Dekoor</div>
+            <div class="menu-toggle" id="menuToggle">
+                <img src="image/menu.icon.png" alt="">
+            </div>
+        </div>
+
+        <nav id="navbar">
+            <ul>
+                <li>About Us</li>
+                <li class="dropdown">
+                    <div class="dropdown-toggle">Services</div>
+                    <div class="dropdown-menu">
+                        <a href="#">Web Design</a>
+                        <a href="#">Development</a>
+                        <a href="#">SEO</a>
+                    </div>
+                </li>
+                <li>Partnerships</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+
+        <div class="button-container">
+            <button class="button-signup">Sign Up</button>
+            <button class="button-cart">
+                <img src="image/shopping_bag.svg" alt="Cart">
+            </button>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>The kind of <span>furniture</span> you have been looking for</h1>
+            <div class="button-hero">
+                <button class="primary-btn">
+                    <img src="image/search.svg" alt="Search Icon">
+                    SEARCH CATALOG
+                </button>
+                <button class="secondary-btn">
+                    <img src="image/play_circle_outline.svg" alt="Play Icon">
+                    WATCH VIDEOS
+                </button>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="image/sofa.png" alt="Furniture" />
+
+            <div class="hero-text-overlay">
+                <div class="price-tag"><span id="featuredPrice">299</span></div>
+                <h2 id="featuredTitle"></h2>
+                <a href="#" class="view-details-btn">
+                    VIEW DETAILS
+                    <span class="arrow-icon">></span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="why-choose-us">
+        <p class="subtitle">WHY CHOOSE US?</p>
+        <h2 class="title">We care about details and the quality<br>of our products</h2>
+        <div class="benefits">
+            <div class="benefit-item">
+                <div class="icon"><img src="image/search_white.svg" alt=""></div>
+                <p>MANUFACTURED WITH<br>QUALITY MATERIALS</p>
+            </div>
+            <div class="benefit-item">
+                <div class="icon">5</div>
+                <p>5 YEARS OF WARRANTY FOR EACH PRODUCT</p>
+            </div>
+            <div class="benefit-item">
+                <div class="icon"><img src="image/work_outline.svg" alt=""></div>
+                <p>20 YEARS OF EXPERTISE</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="partner-section">
+        <div class="partner-info">
+            <h2 class="partner-count">25+</h2>
+            <p class="partner-label">PARTNERED BRANDS</p>
+        </div>
+        <div class="partner-logos">
+            <img src="image/gusto.png" alt="Gusto">
+            <img src="image/stripepng.png" alt="Stripe">
+            <img src="image/treehousepng.png" alt="Treehouse">
+            <img src="image/upwork.png" alt="Upwork">
+        </div>
+    </section>
+
+    <section class="furniture-section">
+        <div class="furniture-gallery" id="furnitureGallery">
+        </div>
+
+        <div class="furniture-content">
+            <p class="category-label">Categories</p>
+            <h2 class="main-title">Furniture Sets<br>Recommendations</h2>
+
+            <div class="category-list" id="category-list">
+            </div>
+        </div>
+    </section>
+
+    <section class="best-seller-section">
+        <div class="section-header">
+            <div class="text-content">
+                <h3 class="subtitle-best-seller">OUR PRODUCTS</h3>
+                <h2 class="title-best-seller">This month’s best seller</h2>
+            </div>
+            <button class="see-more-btn">SEE MORE</button>
+        </div>
+
+        <div class="slider-container">
+            <div class="slider" id="productSlider"></div>
+            <div class="slider-buttons">
+                <button id="prev"><i class="fas fa-chevron-left"></i></button>
+                <button id="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="container">
+            <p class="limited-deals-text">LIMITED DEALS</p>
+            <h2 class="newsletter-headline">Become a member and get 10% off of your first purchase</h2>
+            <div class="email-signup-form">
+                <input type="email" placeholder="Enter your email here" class="email-input">
+                <button type="submit" class="email-submit-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M22 6C22 5.44772 21.5523 5 21 5H3C2.44772 5 2 5.44772 2 6V18C2 18.5523 2.44772 19 3 19H21C21.5523 19 22 18.5523 22 18V6ZM20 7L12 13L4 7H20ZM20 17H4V8.7L12 14.7L20 8.7V17Z"
+                            fill="currentColor" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="image/Logo vector.svg" alt="Dekoor Logo" class="logo-img">
+                    <span class="logo-text">Dekoor</span>
+                </div>
+                <p class="brand-description">
+                    Dekoor is a furniture company created to fulfill the needs of family
+                    with aesthetic feeling in their furniture. Always pay attention to
+                    details and give clear communication for the customers. Priority of
+                    our design is comfortability.
+                </p>
+                <p class="copyright">&copy;Copyright 2022 Dekoor</p>
+            </div>
+
+            <div class="footer-links-group">
+                <div class="footer-links-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Care guide</a></li>
+                        <li><a href="#">Redeem warranty</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-column">
+                    <h4>Social Media</h4>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">TikTok</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-column">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Our story</a></li>
+                        <li><a href="#">Designer</a></li>
+                        <li><a href="#">Craftsmanship</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
